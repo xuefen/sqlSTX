@@ -1,0 +1,43 @@
+;by Bernhard Kirchen (schlimmchen)
+;29th July 2005
+#TITLE=mysql
+#CASE=y
+#
+#T=c
+CREATE TABLE IF NOT EXISTS `^!`(  
+ `id` INT(11) NOT NULL AUTO_INCREMENT COMMENT '',
+ PRIMARY KEY  (`id`),     
+ KEY `` (``)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+#
+#T=i
+`^!` INT(11) DEFAULT '0' COMMENT '',
+#
+#T=v
+`^!` VARCHAR(255) DEFAULT '' COMMENT '',
+#
+#T=t
+`^!` TINYINT(2) DEFAULT '0' COMMENT '',
+#
+#T=k
+KEY `^!` (``),
+
+#
+#T=a
+ALTER TABLE `^!` ADD `` INT(11) default '0' COMMENT '';
+
+#
+#T=ai
+ALTER TABLE `^!` ADD `` INT(11) default '0' COMMENT '';
+
+#
+#T=av
+ALTER TABLE `^!` ADD `` VARCHAR(255) default '' COMMENT '';
+
+#
+#T=at
+ALTER TABLE `^!` ADD `` TINYINT(2) default '0' COMMENT '';
+
+#
+#T=/
+/*^! tongxuefen 2011-11-17*/
